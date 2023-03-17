@@ -1,0 +1,52 @@
+:root {
+    --background: #1d1f20;
+    --text: #c5c8c6;
+    --pink: #f22572;
+    --green: #9fff60;
+    --grey: #6f7474;
+}
+/* :root {
+  --background: rgb(29, 31, 32);
+  --text: rgb(197, 200, 198);
+  --pink: rgb(242, 37, 114);
+  --green: rgb(159, 255, 96);
+  --grey: rgb(111, 116, 116);
+} */
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: var(--background);
+    color: var(--text);
+}
+h1 {
+    color: var(--green);
+}
+a {
+    color: var(--pink);
+    text-decoration: underline;
+}
+footer {
+    color: var(--grey);
+}
+
+a:hover {
+    color: var(--green);
+}
+
+p {
+    color: var(--text);
+}
+
+button {
+    font-weight: bolder;
+    font-family: monospace;
+    color: var(--background);
+    background-color: var(--text);
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+button:hover {
+    color: var(--background);
+    background-color: var(--pink);
+}

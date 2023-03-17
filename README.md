@@ -7,7 +7,7 @@ Visualizing algorithm for better understanding.
 ### 1)Bubble Sort Algorithm
 
 ![]
-(https://github.com/ydkulks/AlgorithmVisualized/BubbleSort.gif)
+(https://github.com/ydkulks/AlgorithmVisualized/blob/main/BubbleSort.gif)
 
 ## To-do
 
